@@ -9,8 +9,6 @@ class:
 
 UB IEEE x DREAM 
 
-&copy; 2024 Eric Butcher
-
 ---
 
 ## Installing Git
@@ -321,6 +319,10 @@ To create a new branch and check it out with one command you can use the `-b` fl
 
 ---
 
+![bg w:500](diagrams/git_branches_merge_conflict.svg)
+
+---
+
 ##### Adding Content to Winnie Branch
 
 1) Create a branch named `winnie-the-pooh` with `git branch winnie-the-pooh`. 
@@ -341,6 +343,10 @@ Date: 10/24/2024
 
 ![Picture of Winnie the Pooh](images/winnie_the_pooh.jpg)
 ```
+
+---
+
+![bg w:500](diagrams/git_branches_merge_conflict.svg)
 
 ---
 
@@ -365,6 +371,10 @@ Date: 10/24/2024
 
 ---
 
+![bg w:500](diagrams/git_branches_merge_conflict.svg)
+
+---
+
 <!-- Checkout main and merge first branch -->
 
 #### Managing a Merge Conflict
@@ -384,8 +394,24 @@ Date: 10/24/2024
 >>>>>>> piglet
 ```
 
-<!-- Merge second branch, resolve the merge conflict -->
+---
 
+##### Conflict Resolved
+```md
+# Favorite Cartoon Characters
+
+Featured Characters: Winnie the Pooh, Piglet
+Date: 10/24/2024
+
+![Winnie the Pooh](images/Winnie_The_Pooh.png)
+
+![Piglet](images/Piglet.png)
+
+```
+
+---
+
+![bg w:500](diagrams/git_branches_merge_conflict.svg)
 
 --- 
 
