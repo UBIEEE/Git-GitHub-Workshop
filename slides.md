@@ -439,17 +439,61 @@ When you use the command `git init`, git is creating this hidden `.git` director
 
 ## Using GitHub
 
+### Making Repository on GitHub
+
+Go to GitHub, and use the new button to create a new repository. Go through the new repository creation menu and leave all the defaults, except give your repo a good name. 
+
+
+
+
+![bg right w:500](screenshots/GitHubNewRepositoryScreen.png)
+
 ---
 
 ### Uploading Repository to GitHub
+
+After creating a new repository, you should be presented with a screen that will give you instructions for uploading your local repo to GitHub. 
+
+Since we already have a local repo that we want to push to GitHub we will use the "push an existing repository" option: 
+
+```
+git remote add origin git@github.com:username/reponame.git
+git branch -M main
+git push -u origin main
+```
+
+> :warning: This default command provided may have some problems in certain situations. Use `git help <command>` to learn what each of the preceding commands do. What is the potential issue here?
+
+After you do this you should be able to see the contents of your repo on GitHub. 
 
 ---
 
 #### Pushing Changes to GitHub
 
+1) Edit you README and commit the changes
+2) Push this change to your remote using `git push`
+3) Verify that the changes are reflected on GitHub by refreshing the repo's GitHub page
+4) Create a new branch off main and add some changes and commit them
+5) Push this branch to GitHub using `git push`
+
+
+> You will likely get an error saying that the remote does not have a branch with the name you specified. Git will likely recommend to do: `git push --set-upstream origin <branch>`. Use this command to push the changes _and_ tell the remote to create and track the remote branch with this name.  
+
+6) Verify that you can find that branch on the webpage and that your commits and changes are reflected. 
+
 ---
 
-#### Collaborating With Others with GitHub
+#### Adding Branch Protection
+
+---
+
+#### Adding Collaborator to Repository
+
+---
+
+#### Cloning Repository
+
+---
 
 ---
 
