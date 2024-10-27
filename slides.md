@@ -9,6 +9,11 @@ class:
 
 UB IEEE x DREAM 
 
+![bg right w:400](images/qrcode_discord_ieee.png)
+
+
+Please join our Discord:
+
 ---
 
 ## Installing Git
@@ -256,6 +261,8 @@ In this example, we can commit the staged changes like so:
 `git commit -m "Added the README.md"`. 
 
 If you use `git status` now, you should be informed that there are no untracked changes. 
+
+> If you get an "author identity unknown error", follow the instructions to configure your name and email. These will be included in every commit you make on any repository. 
 
 --- 
 
