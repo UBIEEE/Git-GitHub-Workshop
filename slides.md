@@ -485,23 +485,42 @@ After you do this you should be able to see the contents of your repo on GitHub.
 
 #### Adding Branch Protection
 
+Go to the setting tab for your repon under **Branches** select "Add classic branch protection rule". 
+
+![w:1000](screenshots/SettingsAddBranchRulesetPage.png)
+
+---
+
+![bg w:400](screenshots/ClassBranchProtectionRulesConfiguration.png)
+
 ---
 
 #### Adding Collaborator to Repository
+
+Find a partner and add them to your repository on GitHub. 
+
+![w:700](screenshots/AddCollaborator.png)
+
 
 ---
 
 #### Cloning Repository
 
----
+1) Navigate to the repository on GitHub and copy the url to clone the repo
+2) Find a new directory to store the repo in on your computer and use the command `git clone <url-from-gh>`
+3) Open this new directory with your code editor
+
+![bg right w:600](screenshots/Clone_FFmpeg.png)
 
 ---
 
-#### Creating a Pull Request
+#### Creating and Reviewing Pull Request
 
----
-
-#### Reviewing Pull Request
+1) Create a new branch on this repo and make some edits to the files, commit them, and them push them
+2) Go to GitHub, and create a Pull Request by going to the `Pull requests` tab on the repo's webpage -> `New pull request`. Set the compare branch to the development branch you made and the base branch to `main`. This will allow the development branch to be merged into main once the pull request is complete. Click `Create pull request`. 
+3) Have the partner review and approve the request. 
+4) Merge. 
+5) Go to your local repository and use `git pull` to pull down the changes from the remote repo. 
 
 ---
 
