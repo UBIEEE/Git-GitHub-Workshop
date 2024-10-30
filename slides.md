@@ -49,7 +49,9 @@ Open a PowerShell terminal. Use the following command:
 ```powershell
  winget install --id Git.Git -e --source winget 
 ```
+
 ---
+
 ### macOS
 
 There are a variety of ways to install git on macOS. We recommend that you use [homebrew](https://brew.sh/). 
@@ -75,6 +77,7 @@ brew install git
 Git can be installed with a properly configured XCode installation by typing the command `xcode-select --install`. Since I don't use a mac, I can't confirm this or help you out. Sorry!
 
 ---
+
 ### Debian/Ubuntu
 
 Type the following command in your terminal:
